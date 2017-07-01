@@ -15,6 +15,7 @@ Zadanie domowe wykonujemy przy użyciu GitHub Pages.*/
 
 * {
     box-sizing: border-box;
+    transition: all 1s;
 }
 
 body {
