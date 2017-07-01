@@ -19,3 +19,27 @@ Grafiki do projektu dostępne są pod linkiem:
 •  https://akademia108.pl/kurs-front-end/bootstrap-project-photos.zip
 Zadanie domowe wykonujemy przy użyciu GitHub Pages.*/
 
+.navbar-brand {
+    font-family: 'Droid Serif', serif;
+    color: #fff;
+}
+#menu {
+    background-color: aqua;
+       
+}
+
+#menu * {
+    color: #fff;
+}
+
+#nav-menu li a {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+}
+
+header {
+    background-image: url(../img/header/pictures_on_the_wall.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
