@@ -7,7 +7,7 @@ $(function () {
             //color nawigacji
             $('#main-nav').css('background-color', 'aqua');
         } else {
-            $('#main-nav').css('background-color', 'white');
+            $('#main-nav').css('opacity', '0.5');
         }
     });
 });
