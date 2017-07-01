@@ -84,6 +84,25 @@ a.btn-blue:hover, .btn-blue:hover {
     margin: auto;
 }
 
+section #services {
+    margin-top: 30px;
+}
+
+#service-header {
+    margin-bottom: 50px;
+}
+
 #services {
+    margin-top: 80px;
     color: black;
+}
+
+#services i {
+    background: blue;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    font-size: 3em;
+    color: #fff;
+   padding-top: 15px;
 }
