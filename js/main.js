@@ -3,9 +3,11 @@
 $(function () {
     
     $(window).scroll(function () {
-        if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+        if ($(window).scrollTop() + $(window).height() > $(document).height() - 170) {
             //color nawigacji
-            $('#menu').css('background-color', 'aqua');
+            $('#main-nav').css('background-color', 'aqua');
+        } else {
+            $('#main-nav').css('background-color', 'white');
         }
     });
 });
