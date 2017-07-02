@@ -28,7 +28,8 @@ h1 {
     font-size: 4em;
 }
 
-a.btn-blue, .btn-blue {
+a.btn-blue,
+.btn-blue {
     margin-top: 20px;
     background-color: #0ed8d6;
     border: 1px solid #0ed8d6;
@@ -39,11 +40,14 @@ a.btn-blue, .btn-blue {
     padding: 15px 30px;
 }
 
-a.btn-blue:hover, .btn-blue:hover {
+a.btn-blue:hover,
+.btn-blue:hover {
     background-color: #fff;
     border: 1px solid #03d8d6;
     color: #0ed8d6;
 }
+
+
 /* Main Menu Styles Start */
 
 #main-nav {
@@ -66,11 +70,13 @@ a.btn-blue:hover, .btn-blue:hover {
 #main-nav a:hover {
     color: #0ed8d6;
 }
+
+
 /* Main Menu Styles End*/
 
 #main-header {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/header/pictures_on_the_wall.jpg);
-    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
+    background-size: auto;
     position: relative;
     height: 100vh;
 }
@@ -89,20 +95,86 @@ section #services {
 }
 
 #service-header {
-    margin-bottom: 50px;
+    
 }
 
 #services {
     margin-top: 80px;
     color: black;
+    margin-bottom: 200px;
 }
 
 #services i {
-    background: blue;
+    background: #0ed8d6;
     width: 70px;
     height: 70px;
     border-radius: 40px;
     font-size: 3em;
     color: #fff;
-   padding-top: 15px;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+
+#services i:hover {
+    background-color: #fff;
+    border: 1px solid #03d8d6;
+    color: #0ed8d6;
+    transform: rotate(360deg);
+}
+
+#portfolio {
+    color: black;
+}
+
+#portfolio img {
+    
+    height: 250px;
+    width: 280px;
+}
+
+#portfolio img:hover {
+    
+    height: 270px;
+    width: 300px;
+    
+}
+
+.borderek {    
+    border: 2px solid red;
+    height: 210px;
+    width: 250px;
+    overflow: hidden;    
+}
+
+.obrazek {
+   
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+}
+
+.obrazek1 {
+     background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+.obrazek2 {
+     background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+.obrazek3 {
+     background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+.obrazek4 {
+     background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+.obrazek5 {
+     background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+.obrazek6 {
+     background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+
+#portfolio .obrazek:hover {
+    height: 70vh;
 }
