@@ -55,6 +55,25 @@ section .section-description {
     color: #777;
 }
 
+.social-icons a {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    line-height: 40px;
+    background-color: #222;
+    border: 1px solid #222;
+    border-radius: 50%;
+    font-size: 1.8em;
+    color: #fff;
+    transition: all .3s;
+    margin: 5px;
+}
+
+.social-icons a:hover {
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+}
+
 a.btn-blue,
 .btn-blue {
     margin-top: 20px;
@@ -391,3 +410,42 @@ section #services {
 
 /* Section Portfolio Styles STOP */
 
+#team .team-member {
+    margin-bottom: 40px;
+}
+
+#team .team-member img {
+    max-height: 230px;
+}
+
+#contact {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
+    background-size: cover;
+    background-position: center;
+    
+  
+}
+
+#contact h2, #contact p {
+    color: #fff;
+}
+
+#contact input:not([type='submit']), #contact textarea {
+    width: 100%;
+    border: 0px solid;
+}
+
+#contact input, #contact textarea {
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+#contact input:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+#contact input[type='submit'] {
+    margin-top: 30px;
+}
