@@ -28,6 +28,33 @@ h1 {
     font-size: 4em;
 }
 
+h3 {
+    font-size: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section header {
+    margin-bottom: 70px;
+}
+
+section .section-heading {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+section .section-description {
+    font-family: 'Droid Serif', sans-serif;
+    color: #777;
+}
+
 a.btn-blue,
 .btn-blue {
     margin-top: 20px;
@@ -89,6 +116,7 @@ a.btn-blue:hover,
     right: 0;
     margin: auto;
 }
+/*
 
 section #services {
     margin-top: 30px;
@@ -124,6 +152,7 @@ section #services {
 
 #portfolio {
     color: black;
+    background-color: darkgrey;
 }
 
 #portfolio img {
@@ -177,4 +206,25 @@ section #services {
 
 #portfolio .obrazek:hover {
     height: 70vh;
+}
+
+
+*/
+
+#services .fa {
+    font-size: 3em;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border: 1px solid #0ed8d6;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #0ed8d6;
+    transition: all .3s;
+}
+
+#services .fa:hover {
+    color: #0ed8d6;
+    background-color: #fff;
+    transform: rotate(360deg);
 }
